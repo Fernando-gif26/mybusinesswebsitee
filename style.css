@@ -1,0 +1,377 @@
+
+/* ===== GENERAL STYLE ===== */
+
+    * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+    html {
+    scroll-behavior: smooth;
+     }
+
+body {
+       font-family: Arial, sans-serif;
+       background-color: #fff8f2;
+       color: #4b2e24;
+       line-height: 1.6;
+    }
+
+/* ===== NAVIGATION BAR ===== */
+
+nav {
+     background-color: #6f4e37;
+     color: white;
+     padding: 18px 50px;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+    }
+
+nav h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ffd6a5;
+}
+
+/* Search Area */
+.search-area {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.search-area input {
+    width: 80%;
+    max-width: 500px;
+    padding: 14px;
+    border: 2px solid #c8a27a;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-area input:focus {
+    border-color: #6f4e37;
+}
+
+a {
+
+Background: rgba(241, 172, 93, 0.581);
+color:white;
+text-decoration: none;
+border: none;
+ padding: 10px 20px;
+Border-radius: 20px;
+}
+
+
+/* ===== HOME SECTION ===== */
+
+.home {
+    min-height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: #f3d5b5;
+    padding: 50px 20px;
+}
+
+.home h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #4b2e24;
+}
+
+.home p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: white;
+
+    padding: 12px 25px;
+    border-radius: 25px;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #4b2e24;
+}
+
+
+/* ===== ABOUT SECTION ===== */
+
+#about {
+    padding: 70px 15%;
+    text-align: center;
+    background-color: #fff8f2;
+    
+}
+
+#about h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #6f4e37;
+}
+
+#about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;    
+    margin: auto;
+}
+
+.video-section {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.video-section h2 {
+    color: #ff7a00;
+}
+
+.aniverse-video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+
+/* ===== PRODUCTS SECTION ===== */
+
+#products {
+    padding: 70px 7%;
+    background-color: #f8eadf;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#products h1 {
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #6f4e37;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.product {
+    background-color: white;
+    padding: 25px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(75, 46, 36, 0.15);
+
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product h2 {
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #6b5147;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    color: #b5651d;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.product button {
+    background-color: #6f4e37;
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product button:hover {
+    background-color: #4b2e24;
+}
+
+a {
+
+Background: gray;
+color:white;
+text-decoration: none;
+border: none;
+ padding: 10px 20px;
+Border-radius: 20px;
+}
+
+
+/* ===== CONTACT SECTION ===== */
+
+#contact {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #fff8f2;
+}
+
+#contact h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #6f4e37;
+}
+
+#contact p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+/* ===== CUSTOMER COMMENTS SECTION ===== */
+
+#comments {
+    padding: 70px 20px;
+    background-color: #fff8f2;
+    text-align: center;
+}
+
+#comments h1 {
+    font-size: 35px;
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+.comment-intro {
+    color: #6b5147;
+    margin-bottom: 30px;
+}
+
+/* Comment form */
+.comment-form {
+    background-color: white;
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(75, 46, 36, 0.15);
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #c8a27a;
+    border-radius: 8px;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.comment-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.comment-form button {
+    background-color: #6f4e37;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #4b2e24;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+@media (max-width: 800px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .products {
+        grid-template-columns: 1fr;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    .home p {
+        font-size: 17px;
+    }
+}

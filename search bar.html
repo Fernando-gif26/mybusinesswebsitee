@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    
+<body> 
+<section id="products">
+
+    <div class="product">
+        <h2>☕ Coffee Jelly</h2>
+        <p>Delicious coffee jelly dessert.</p>
+        <h3>₱50</h3>
+    </div>
+
+    <div class="product">
+        <h2>☕ Caramel Coffee</h2>
+        <p>Sweet and creamy caramel coffee.</p>
+        <h3>₱60</h3>
+    </div>
+
+    <div class="product">
+        <h2>☕ Vanilla Coffee</h2>
+        <p>Smooth coffee with a sweet vanilla flavor.</p>
+        <h3>₱60</h3>
+    </div>
+
+    <div class="product">
+        <h2>☕ Spanish Latte</h2>
+        <p>Creamy and delicious Spanish-style latte.</p>
+        <h3>₱70</h3>
+    </div>
+
+    <div class="product">
+        <h2>☕ Mocha Coffee</h2>
+        <p>Rich coffee blended with chocolate.</p>
+        <h3>₱65</h3>
+    </div>
+
+    <div class="product">
+        <h2>🧊 Iced Coffee</h2>
+        <p>Refreshing and chilled coffee.</p>
+        <h3>₱55</h3>
+    </div>
+
+    <div class="product">
+        <h2>🍫 Chocolate Cake</h2>
+        <p>Soft and delicious chocolate cake.</p>
+        <h3>₱75</h3>
+    </div>
+
+    <div class="product">
+        <h2>🍰 Cheesecake</h2>
+        <p>Creamy and delicious cheesecake.</p>
+        <h3>₱80</h3>
+    </div>
+
+    <div class="product">
+        <h2>🍪 Cookies</h2>
+        <p>Sweet and crunchy cookies.</p>
+        <h3>₱40</h3>
+    </div>
+
+    <div class="product">
+        <h2>🍫 Brownies</h2>
+        <p>Rich and fudgy chocolate brownies.</p>
+        <h3>₱45</h3>
+    </div>
+
+    <div class="product">
+        <h2>🍮 Caramel Pudding</h2>
+        <p>Soft and creamy caramel pudding.</p>
+        <h3>₱50</h3>
+    </div>
+
+    <div class="product">
+        <h2>🍓 Fruit Parfait</h2>
+        <p>Fresh and delicious fruit parfait.</p>
+        <h3>₱65</h3>
+    </div>
+
+</section>
+
+<script>
+function searchProducts() {
+
+    let searchInput = document.getElementById("searchInput").value.toLowerCase();
+
+    let products = document.querySelectorAll(".product");
+
+    products.forEach(function(product) {
+
+        let productName = product.querySelector("h2").textContent.toLowerCase();
+
+        if (productName.includes(searchInput)) {
+            product.style.display = "block";
+        } else {
+            product.style.display = "none";
+        }
+
+    });
+}
+</script
+
+</body>
+</html> 

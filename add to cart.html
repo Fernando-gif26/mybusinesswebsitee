@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart -Bean & bliss cafe</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="add to cart.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>☕ Bean & Bliss Cafe</h1>
+
+        <nav>
+            <a href="index.html">Login</a>
+            <a href="home page.html">Home</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- Cart Page -->
+    <main>
+
+        <h2>🛒 My Shopping Cart</h2>
+
+        <!-- Cart Items -->
+
+        <div class="cart-item">
+
+            <img src="Coffee jelly/43fa67c8-0e34-4da7-80be-a3accbf96238.jfif"
+            alt="coffee jelly"
+            width="170">
+
+            <h2>Coffee Jelly</h2>
+            <p>Delicious coffee jelly dessert.</p>
+            <h3>₱50</h3>
+            <button>Order Now</button>
+
+            <input
+                type="number"
+                id="Coffee Jelly"
+                value="0"
+                min="0">
+
+              <button onclick="alert('Coffee Jelly added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(coffeejellyremove)">
+                Remove
+            </button>
+
+        </div>
+
+        <br>
+
+        <div class="cart-item">
+
+             <img src="Caramel Coffee/efe06f15-5488-4cc4-95e0-3d8e0b2658a8.jfif"
+        alt="caramel coffee"
+        width="150">
+
+             <h2>Caramel Coffee</h2>
+            <p>Sweet and creamy caramel coffee.</p>
+            <h3>₱60</h3>
+            <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="strawberryQty"
+                value="0"
+                min="0">
+
+            <button onclick="alert('Caramel Coffee added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(CaramelCoffeeremove)">
+                Remove
+            </button>
+
+        </div>
+
+        <br>
+
+        <div class="cart-item">
+
+             <img src="Vanilla Coffee/79ab405a-209f-4c27-9dd0-f0990b606080 (1).jfif"
+        alt="vanilla coffee"
+        width="145">
+
+            <h2>Vanilla Coffee</h2>
+            <p>Smooth coffee with vanilla flavor.</p>
+            <h3>₱60</h3>
+            <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="ubeQty"
+                value="0"
+                min="0">
+
+           <button onclick="alert('Vanilla Coffee added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(VanillaCoffeeremove)">
+                Remove
+            </button>
+
+        </div>
+        <br>
+
+        <div class="cart-item">
+
+             <img src="Spanish Latte/661e911e-0266-4ccb-8de5-e36b2a84df22 (1).jfif"
+        alt="SpanishLatte"
+        width="205">
+
+            <h2>Spanish Latte</h2>
+            <p>Creamy coffee with sweet milk.</p>
+            <h3>₱70</h3>
+        <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+             <button onclick="alert('Spanish Latte added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(SpanishLatteremove)">
+                Remove
+            </button>
+
+        </div>
+
+        <div class="cart-item">
+
+             <img src="Mocha Coffee/48274805-91fe-4144-b04a-98a79121a94d (1).jfif"
+        alt="Mocha Coffee"
+        width="230">
+
+           <h2>Mocha Coffee</h2>
+            <p>Rich coffee mixed with chocolate.</p>
+            <h3>₱65</h3>
+         <button>Order Now</button>
+        
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+            <button onclick="alert('Mocha Coffee added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(MochaCoffeeremove)">
+                Remove
+            </button>
+
+        </div>
+
+         <div class="cart-item">
+
+             <img src="Iced Coffee/ea3647dc-4c5d-4456-8aa4-9dbfa9d88068 (1).jfif"
+        alt="Iced Coffee"
+        width="145">
+
+           <h2>Iced Coffee</h2>
+            <p>Refreshing cold coffee served with ice.</p>
+            <h3>₱55</h3>
+        <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+            <button onclick="alert('Iced Coffee added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(IcedCoffeeremove)">
+                Remove
+            </button>
+
+        </div>
+
+ <div class="cart-item">
+
+     <img src="Chocolate Cake/cd874204-8781-495f-b606-cb81cc4da4e2.jfif"
+        alt="Chocolate Cake"
+        width="220">
+
+           <h2>Chocolate Cake</h2>
+            <p>Soft and delicious chocolate cake.</p>
+            <h3>₱75</h3>
+        <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+           <button onclick="alert('Chocolate Cake added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(ChocolateCakeremove)">
+                Remove
+            </button>
+
+        </div>
+
+ <div class="cart-item">
+
+     <img src="Cheesecake/Cheesecake_RECIPE_062922_36317.webp"
+        alt="Cheesecake"
+        width="330">
+
+           <h2>Cheesecake</h2>
+            <p>Creamy and smooth cheesecake.</p>
+            <h3>₱80</h3>
+        <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+            <button onclick="alert('Cheesecake added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(Cheesecakeremove)">
+                Remove
+            </button>
+
+
+        </div>
+
+<div class="cart-item">
+
+     <img src="Cookies/Single-Serve-Chocolate-Chip-Cookie.png"
+        alt="Cookies"
+        width="270">
+
+           <h2>Cookies</h2>
+            <p>Fresh and crunchy chocolate chip cookies.</p>
+            <h3>₱40</h3>
+        <button>Order Now</button>
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+             <button onclick="alert('Cookies added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(Cookiesremove)">
+                Remove
+            </button>
+
+        </div>
+
+<div class="cart-item">
+
+    <img src="Brownies/OIP.webp"
+        alt="Brownies"
+        width="220">
+
+           <h2>Brownies</h2>
+            <p>Soft, fudgy, and chocolatey brownies.</p>
+            <h3>₱45</h3>
+        <button>Order Now</button>
+
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+            <button onclick="alert('Brownies added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(Browniesremove)">
+                Remove
+            </button>
+
+        </div>
+
+<div class="cart-item">
+
+     <img src="Caramel Coffee/efe06f15-5488-4cc4-95e0-3d8e0b2658a8.jfif"
+        alt="Caramel Pudding"
+        width="145">
+
+           <h2>Caramel Pudding</h2>
+            <p>Sweet and creamy caramel pudding.</p>
+            <h3>₱50</h3>
+        <button>Order Now</button>
+
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+                
+
+            <button onclick="alert('Caramel Pudding added to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(CaramelPuddingremove)">
+                Remove
+            </button>
+
+        </div>
+
+<div class="cart-item">
+
+     <img src="Fruit Parfait/yogurt-parfait-4.jpg"
+        alt="Fruit Parfait"
+        width="220">
+
+           <h2>Fruit Parfait</h2>
+            <p>Fresh fruits with creamy yogurt and toppings.</p>
+            <h3>₱65</h3>
+        <button>Order Now</button>
+
+
+            <label>Quantity:</label>
+
+            <input
+                type="number"
+                id="caramelQty"
+                value="0"
+                min="0">
+
+            <button onclick="alert('Fruit Parfaitadded to cart!')">
+                Add to Cart
+            </button>
+
+            <button onclick="alert(FruitParfaitremove)">
+                Remove
+            </button>
+
+        </div>
+
+    <body> 
+        
+<!-- JAVASCRIPT GOES HERE -->
+    <script>
+
+        function addCoffeeJelly() {
+
+            let quantity =
+                document.getElementById("coffeeJellyQty").value;
+
+            let cart =
+                JSON.parse(localStorage.getItem("cart")) || [];
+
+            let existingItem =
+                cart.find(item => item.name === "Coffee Jelly");
+
+            if (existingItem) {
+
+                existingItem.quantity += Number(quantity);
+
+            } else {
+
+                cart.push({
+                    name: "Coffee Jelly",
+                    price: 50,
+                    quantity: Number(quantity)
+                });
+
+            }
+
+            localStorage.setItem("cart", JSON.stringify(cart));
+
+            alert("Coffee Jelly added to your cart!");
+
+        }
+
+    </script>
+     </body>
+
+        <hr>
+
+        <!-- Cart Summary -->
+
+        <h2>Cart Summary</h2>
+
+        <p>
+            Coffee Jelly:
+            ₱<span id="Coffee JellyTotal">0</span>
+        </p>
+
+        <p>
+            Brownies:
+            ₱<span id="BrowniesTotal">0</span>
+        </p>
+
+        <p>
+            CaramelPudding:
+            ₱<span id="CaramelPuddingTotal">0</span>
+        </p>
+
+        <p>
+            CaramelCoffee:
+            ₱<span id="CaramelCoffeeTotal">0</span>
+        </p>
+
+        <h2>
+            <Total:0></Total:0>₱<span id="grandTotal">0</span>
+        </h2>
+
+        <br>
+
+        <button onclick="clearCart()">
+            Clear Cart
+        </button>
+
+        <a href="checkout.html">
+            <button>
+                Proceed to Checkout
+            </button>
+        </a>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Bean & bliss cafe</h3>
+
+        <p>📍 mercedes zone 1 calle rial</p>
+
+        <p>📧 Bean & bliss cafe@gmail.com</p>
+
+        <p>📱 09364875003</p>
+
+        <p>© 2026 Bean & bliss cafe</p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        let CoffeeJelly  = 0;
+        let CaramelCoffeey = 0;
+        let VanillaCoffee = 0;
+        let MochaCoffee = 0;
+        let IcedCoffee = 0;
+        let Cheesecake = 0;
+        let Cookies = 0;
+        let Brownies = 0; 
+        let CaramelPudding = 0;   
+        let FruitParfait = 0;
+
+        function addCoffeeJelly () {
+
+            let quantity =
+                document.getElementById("CoffeeJellyQty ").value;
+            CoffeeJelly= 45 * quantity;
+            updateTotal();
+            alert("CoffeeJelly  added to cart!");
+
+        }
+        function addCaramelCoffeey() {
+            let quantity =
+                document.getElementById("CaramelCoffeeyQty").value;
+            CaramelCoffeey = 45 * quantity;
+            updateTotal();
+            alert("CaramelCoffee added to cart!");
+        }
+
+        function addVanillaCoffee() {
+            let quantity =
+                document.getElementById(" VanillaCoffeeQty").value
+             VanillaCoffee = 50 * quantity;
+            updateTotal();
+            alert(" VanillaCoffee added to cart!");
+        }
+
+        function addMochaCoffee() {
+            let quantity =
+                document.getElementById("MochaCoffeeQty").value;
+            MochaCoffee = 50 * quantity;
+            updateTotal();
+            alert("MochaCoffee added to cart!");
+        }
+
+        function addIcedCoffee() {
+            let quantity =
+                document.getElementById("IcedCoffeeQty").value;
+            IcedCoffee = 50 * quantity;
+            updateTotal();
+            alert("IcedCoffee added to cart!");
+        }
+
+        {
+            let quantity =
+                document.getElementById("CheesecakeQty").value;
+            Cheesecake = 50 * quantity;
+            updateTotal();
+            alert("Cheesecake added to cart!");
+        
+          }
+
+        function addCheesecake() {
+
+            let quantity =
+                document.getElementById("CheesecakeQty").value;
+            Cheesecake = 50 * quantity;
+            updateTotal();
+            alert("Cheesecake added to cart!");
+        }
+
+        function addCookies() {
+            let quantity =
+                document.getElementById("CookiesQty").value;
+            Cookies = 50 * quantity;
+            updateTotal();
+            alert("Cookies added to cart!");
+
+        }
+
+        function addBrownies() {
+            let quantity =
+                document.getElementById("BrowniesQty").value;
+            Brownies = 50 * quantity;
+            updateTotal();
+            alert("Brownies added to cart!");
+        }
+
+        function addCaramelPudding() {
+            let quantity =
+                document.getElementById("Caramel PuddingQty").value;
+            CaramelPudding = 50 * quantity;
+            updateTotal();
+            alert("Caramel Pudding added to cart!");
+        }
+
+        function addFruitParfait() {
+            let quantity =
+                document.getElementById("Fruit ParfaitQty").value;
+            FruitParfait = 50 * quantity;
+            updateTotal();
+            alert("Fruit Parfait added to cart!");
+        }
+
+
+        function removeCoffeeJelly() {
+            CoffeeJelly = 0;
+            document.getElementById("CoffeeJellyQty").value = 1;
+            updateTotal();
+        }
+
+        function removeCaramelCoffee() {
+            CaramelCoffee = 0;
+            document.getElementById("CaramelCoffeeQty").value = 1;
+            updateTotal();
+
+        }
+
+
+        function removeVanillaCoffee() {
+            VanillaCoffee = 0;
+            document.getElementById("VanillaCoffeeQty").value = 1;
+            updateTotal();
+
+        }
+
+        function removeSpanishLatte() {
+            SpanishLatte = 0;
+            document.getElementById("SpanishLatteQty").value = 1;
+            updateTotal();
+        }
+
+         function removeMochaCoffee() {
+            MochaCoffee = 0;
+            document.getElementById("MochaCoffeeQty").value = 1;
+            updateTotal();
+        }
+
+         function removeIcedCoffee() {
+            IcedCoffee = 0;
+            document.getElementById("IcedCoffeeQty").value = 1;
+            updateTotal();
+        }
+
+         function removeChocolateCake() {
+            ChocolateCake = 0;
+            document.getElementById("ChocolateCakeQty").value = 1;
+            updateTotal();
+        }
+
+         function removeCheesecake() {
+            Cheesecake = 0;
+            document.getElementById("CheesecakeQty").value = 1;
+            updateTotal();
+        }
+
+         function removeCookies() {
+            Cookies = 0;
+            document.getElementById("CookiesQty").value = 1;
+            updateTotal();
+
+        }
+
+        function removeBrownies() {
+            Brownies = 0;
+            document.getElementById("BrowniesQty").value = 1;
+            updateTotal();
+
+        }
+
+        function removeCaramelPudding() {
+            CaramelPudding = 0;
+            document.getElementById("CaramelPuddingQty").value = 1;
+            updateTotal();
+
+        }
+
+         function removeFruitParfait() {
+            FruitParfait = 0;
+            document.getElementById("FruitParfaitQty").value = 1;
+            updateTotal();
+
+        }
+
+
+         function updateTotal() {
+
+            document.getElementById("Coffee Jelly Total").innerHTML =
+                CoffeeJelly;
+
+            document.getElementById("CaramelCoffeeTotal").innerHTML =
+                CaramelCoffee;
+
+            document.getElementById("VanillaCoffeeTotal").innerHTML =
+                VanillaCoffee;
+
+            document.getElementById("SpanishLatteTotal").innerHTML =
+               SpanishLattel;
+
+            document.getElementById("MochaCoffeeTotal").innerHTML =
+               MochaCoffeel;
+
+            document.getElementById("IcedCoffeeTotal").innerHTML =
+               IcedCoffeel;
+
+            document.getElementById("ChocolateCakeTotal").innerHTML =
+               ChocolateCakel;
+
+            document.getElementById("CheesecakeTotal").innerHTML =
+               Cheesecake;
+
+            document.getElementById("CookiesTotal").innerHTML =
+               Cookies;
+
+            document.getElementById("BrowniesTotal").innerHTML =
+               Brownies;
+
+            document.getElementById("CaramelPuddingTotal").innerHTML =
+               CaramelPudding;
+
+            document.getElementById("FruitParfaitTotal").innerHTML =
+               FruitParfait;
+            let total =
+                 CoffeeJelly +
+                CaramelCoffee +
+                 Cookies +
+                Brownies;
+            document.getElementById("grandTotal").innerHTML =
+                total;
+
+        }
+        function clearCart() {
+
+             CoffeeJelly = 0;
+            CaramelCoffee= 0;
+             Cookies = 0;
+            Brownies = 0;
+            updateTotal();
+            alert("Your cart has been cleared.");
+        }
+
+    </script>
+</body>
+</html>

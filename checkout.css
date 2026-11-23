@@ -1,0 +1,256 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f0;
+    color: #4a2c2a;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== NAVIGATION BAR ===== */
+
+nav {
+     background-color: #6f4e37;
+     color: white;
+     padding: 18px 50px;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+ }
+
+nav h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10spx;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ffd6a5;
+}
+
+/* Search Area */
+.search-area {
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+.search-area input {
+    width: 80%;
+    max-width: 500px;
+    padding: 14px;
+    border: 2px solid #c8a27a;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-area input:focus {
+    border-color: #6f4e37;
+}
+
+a {
+
+Background: rgba(241, 172, 93, 0.581);
+color:white;
+text-decoration: none;
+border: none;
+ padding: 10px 20px;
+Border-radius: 20px;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #e0b09a;
+}
+
+/* Main Content */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+main > h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/* MAIN CONTAINER */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* HEADINGS */
+h2 {
+    color: #6f4037;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #8b4f3f;
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* CUSTOMER INFORMATION SECTION */
+section {
+    margin-bottom: 30px;
+}
+
+/* LABELS */
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* INPUTS AND TEXTAREAS */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d6aaa0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf8;
+}
+
+/* TEXTAREA */
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+/* INPUT FOCUS */
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #a85d4c;
+    box-shadow: 0 0 5px rgba(168, 93, 76, 0.3);
+}
+
+/* PAYMENT RADIO BUTTONS */
+input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #8b4f3f;
+}
+
+/* ORDER SUMMARY */
+section p {
+    margin: 8px 0;
+}
+
+/* BUTTONS */
+button {
+    background-color: #8b4f3f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #6f4037;
+    transform: scale(1.03);
+}
+
+/* LINE */
+hr {
+    border: none;
+    border-top: 1px solid #e0c8c0;
+    margin: 30px 0;
+}
+
+/* STAR FEEDBACK */
+#stars {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+#stars span {
+    color: #d3b8b0;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: 0.2s;
+}
+
+#stars span:hover {
+    color: #f4b400;
+    transform: scale(1.1);
+}
+
+/* RATING NUMBER */
+#rating {
+    color: #8b4f3f;
+    font-size: 18px;
+}
+
+/* FEEDBACK MESSAGE */
+#feedbackMessage {
+    font-weight: bold;
+    color: #6f4037;
+    margin-top: 15px;
+}
+
+/* MOBILE DESIGN */
+@media (max-width: 600px) {
+
+    main {
+        width: 90%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #stars {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Bean & bliss cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <!-- Navigation Bar -->
+    <nav>
+        <h2> Bean & bliss cafe</h2>
+
+        <div class="nav-links">
+            <a href="home page.html">home</a>
+            <a href="#about">about us</a>
+            <a href="#products">products</a>
+            <a href="#contact">contact</a>
+            <a href="#customer comment">comment</a>
+            <a href="index.html">login</a>
+
+        </div>
+    </nav>
+
+
+     <!-- Search Area -->
+    <div class="search-area">
+    <input  type="text" id="searchInput" 
+        placeholder="🔍 Search products..."
+        onkeyup="searchProducts()">
+
+        <button onclick="searchProducts()"><search></button>
+     </div>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <div>
+            <h1>Welcome to  Bean & bliss cafe</h1>
+            <p>Delicious coffee and sweet treats made for you.</p>
+            <a href="#products" class="button">View Products</a>
+        </div>
+    </section>
+
+  
+<!-- Products -->
+<section id="products">
+    <h1>Our Products</h1>
+
+    <!-- product-->
+    <div class="products">
+    
+        
+        <div class="product">
+            <img src="Coffee jelly/43fa67c8-0e34-4da7-80be-a3accbf96238.jfif"
+        alt="coffee jelly"
+        width="170">
+            <h2>Coffee Jelly</h2>
+            <p>Delicious coffee jelly dessert.</p>
+            <h3>₱50</h3>
+            <a href="add to cart.html">order now</a>
+
+            
+        </div>    
+        
+
+        <div class="product">
+            <img src="Caramel Coffee/efe06f15-5488-4cc4-95e0-3d8e0b2658a8.jfif"
+        alt="caramel coffee"
+        width="150">
+            <h2>Caramel Coffee</h2>
+            <p>Sweet and creamy caramel coffee.</p>
+            <h3>₱60</h3>
+             <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+              <img src="Vanilla Coffee/79ab405a-209f-4c27-9dd0-f0990b606080 (1).jfif"
+        alt="vanilla coffee"
+        width="145">
+            <h2>Vanilla Coffee</h2>
+            <p>Smooth coffee with vanilla flavor.</p>
+            <h3>₱60</h3>
+             <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+              <img src="Spanish Latte/661e911e-0266-4ccb-8de5-e36b2a84df22 (1).jfif"
+        alt="SpanishLatte"
+        width="205">
+            <h2>Spanish Latte</h2>
+            <p>Creamy coffee with sweet milk.</p>
+            <h3>₱70</h3>
+             <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+              <img src="Mocha Coffee/48274805-91fe-4144-b04a-98a79121a94d (1).jfif"
+        alt="Mocha Coffee"
+        width="230">
+            <h2>Mocha Coffee</h2>
+            <p>Rich coffee mixed with chocolate.</p>
+            <h3>₱65</h3>
+              <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+              <img src="Iced Coffee/ea3647dc-4c5d-4456-8aa4-9dbfa9d88068 (1).jfif"
+        alt="Iced Coffee"
+        width="145">
+            <h2>Iced Coffee</h2>
+            <p>Refreshing cold coffee served with ice.</p>
+            <h3>₱55</h3>
+              <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+              <img src="Chocolate Cake/cd874204-8781-495f-b606-cb81cc4da4e2.jfif"
+        alt="Chocolate Cake"
+        width="220">
+            <h2>Chocolate Cake</h2>
+            <p>Soft and delicious chocolate cake.</p>
+            <h3>₱75</h3>
+             <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+             <img src="Cheesecake/Cheesecake_RECIPE_062922_36317.webp"
+        alt="Cheesecake"
+        width="330">
+            <h2>Cheesecake</h2>
+            <p>Creamy and smooth cheesecake.</p>
+            <h3>₱80</h3>
+              <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+             <img src="Cookies/Single-Serve-Chocolate-Chip-Cookie.png"
+        alt="Cookies"
+        width="270">
+            <h2>Cookies</h2>
+            <p>Fresh and crunchy chocolate chip cookies.</p>
+            <h3>₱40</h3>
+             <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+             <img src="Brownies/OIP.webp"
+        alt="Brownies"
+        width="220">
+            <h2>Brownies</h2>
+            <p>Soft, fudgy, and chocolatey brownies.</p>
+            <h3>₱45</h3>
+              <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+             <img src="Caramel Coffee/efe06f15-5488-4cc4-95e0-3d8e0b2658a8.jfif"
+        alt="Caramel Pudding"
+        width="145">
+            <h2>Caramel Pudding</h2>
+            <p>Sweet and creamy caramel pudding.</p>
+            <h3>₱50</h3>
+              <a href="add to cart.html">order now</a>
+        </div>
+
+        <div class="product">
+             <img src="Fruit Parfait/yogurt-parfait-4.jpg"
+        alt="Fruit Parfait"
+        width="220">
+            <h2>Fruit Parfait</h2>
+            <p>Fresh fruits with creamy yogurt and toppings.</p>
+            <h3>₱65</h3>
+             <a href="add to cart.html">order now</a>
+        </div>
+
+    </div>
+
+
+</section> 
+ 
+ <!-- About -->
+    <section id="about">
+        <h1>About Us</h1>
+
+        <p>
+            Bean & bliss cafe is a small business that offers delicious
+            coffee and desserts at an affordable price. 
+            Our goal is to give our customers a simple and enjoyable
+            cafe experience.
+        </p>
+    </section>
+
+      <section class="video-section">
+
+        <h2>Welcome to Bean & bliss cafe</h2>
+
+        <video class="Bean & bliss cafe" controls>
+
+            <source src="video/Beans & Bliss cafe.mp4" type="video/mp4">
+
+        </video>
+
+    </section>
+
+    
+     <!-- Contact -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+
+        <p>📱 Phone: 09364875003</p>
+        <p>📧 Email:  Bean & bliss cafe@gmail.com</p>
+        <p>📘 Facebook: Bean & bliss cafe</p>
+    </p>
+
+       
+
+    </section>
+
+<!-- ===== CUSTOMER COMMENTS SECTION ===== -->
+<section id="comments">
+
+    <h1>Customer Comments</h1>
+
+    <p class="comment-intro">
+        We would love to hear from you!
+        Share your experience with Bean & Bliss Cafe.
+    </p>
+
+    <!-- Comment Form -->
+    <div class="comment-form">
+
+        <input type="text" placeholder="Your Name">
+
+        <textarea
+            placeholder="Write your comment here..."></textarea>
+
+        <button type="submit"><a href="checkout.html">submit</a></button>
+
+
+    </div>
+
+</section>
+
+</body>
+</html>
+
